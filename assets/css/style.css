@@ -30,8 +30,9 @@ body{
 
 /* HEADER */
 
-header{
+#header{
   text-align: center;
+  margin-bottom:40px;
 }
 
 h1{
@@ -46,7 +47,9 @@ main{
 
 main>p{
   text-align: center;
+  font-size:18px;
   margin-bottom: 20px;
+  padding-right: 30px;
 }
 
 /* ROW & COL*/ 
