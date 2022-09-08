@@ -32,34 +32,35 @@ body{
 
 header{
   text-align: center;
-  background-color: grey;
 }
 
 h1{
   color: #E53170;
 }
 
+/* MAIN */
+
 main{
-  background-color: blueviolet;
+
 }
 
 main>p{
-  background-color: aqua;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 /* ROW & COL*/ 
 
 .row{
-  background-color:yellow;
 }
 
 .row .col{
   background-color:#0F0E17;
-  width: calc(100% / 3);
+  width: calc((100% - 90px)/ 3);
   height: 100px;
-
   float: left;
+  margin: 20px 30px 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .row .col .col-img,.col-desc{
