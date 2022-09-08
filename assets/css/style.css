@@ -37,6 +37,12 @@ body{
 
 h1{
   color: #E53170;
+  font-size:40px;
+}
+
+h1:hover{
+  transition-duration: .5s;
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }
 
 /* MAIN */
@@ -64,6 +70,12 @@ main>p{
   float: left;
   margin: 20px 30px 20px 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.row .col:hover{
+  transition-duration: .5s;
+  transform: scale(1.2);
+  box-shadow: rgba(82, 181, 214, 0.4) 5px 5px, rgba(82, 181, 214, 0.3) 10px 10px, rgba(82, 181, 214, 0.2) 15px 15px, rgba(82, 181, 214, 0.1) 20px 20px, rgba(82, 181, 214, 0.05) 25px 25px;
 }
 
 .row .col .col-img,.col-desc{
