@@ -47,3 +47,51 @@ main>p{
   background-color: aqua;
   text-align: center;
 }
+
+/* ROW & COL*/ 
+
+.row{
+  background-color:yellow;
+}
+
+.row .col{
+  background-color:#0F0E17;
+  width: calc(100% / 3);
+  height: 100px;
+
+  float: left;
+}
+
+.row .col .col-img,.col-desc{
+  float: left;
+  height: 100px;
+}
+
+.row .col .col-desc{
+  padding: 15px;
+}
+
+.row .col .col-img img{
+  height: 100px;
+}
+
+.row .col .col-desc h2,h3{
+  color:white;
+  margin-bottom: 3px;
+}
+
+.row .col .col-desc h2{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.row .col .col-desc h3{
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.row .col .col-desc .email{
+  font-size: 14px;
+  color:#52B5D6;
+}
+
